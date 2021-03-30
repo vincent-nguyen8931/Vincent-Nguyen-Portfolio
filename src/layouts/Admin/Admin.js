@@ -22,13 +22,10 @@ import PerfectScrollbar from "perfect-scrollbar";
 
 // core components
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
-import Footer from "components/Footer/Footer.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.js";
 
 import routes from "routes.js";
 
-import logo from "assets/img/react-logo.png";
 import { BackgroundColorContext } from "contexts/BackgroundColorContext";
 
 var ps;
@@ -93,13 +90,8 @@ function Admin(props) {
       }
     });
   };
-  const getBrandText = (path) => {
-    for (let i = 0; i < routes.length; i++) {
-      if (location.pathname.indexOf(routes[i].layout + routes[i].path) !== -1) {
-        return routes[i].name;
-      }
-    }
-    return "Brand";
+  const getBrandText = () => {
+    return "Vincent Nguyen";
   };
   return (
     <BackgroundColorContext.Consumer>
@@ -108,11 +100,6 @@ function Admin(props) {
           <div className="wrapper">
             <Sidebar
               routes={routes}
-              logo={{
-                outterLink: "https://www.creative-tim.com/",
-                text: "Creative Tim",
-                imgSrc: logo,
-              }}
               toggleSidebar={toggleSidebar}
             />
             <div className="main-panel" ref={mainPanelRef} data={color}>
@@ -125,13 +112,8 @@ function Admin(props) {
                 {getRoutes(routes)}
                 <Redirect from="*" to="/admin/dashboard" />
               </Switch>
-              {
-                // we don't want the Footer to be rendered on map page
-                location.pathname === "/admin/maps" ? null : <Footer fluid />
-              }
             </div>
           </div>
-          <FixedPlugin bgColor={color} handleBgClick={changeColor} />
         </React.Fragment>
       )}
     </BackgroundColorContext.Consumer>
