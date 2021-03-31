@@ -1,0 +1,37 @@
+[
+  {
+    "title" : "Password Generator",
+    "img" : "https://github.com/vincent-nguyen8931/Password-generator/blob/main/Password-generator-image.png?raw=true",
+    "description" : "A password generator that creates a randomized password between 8 and 128 characters.",
+    "deployedSite" : " https://vincent-nguyen8931.github.io/Password-generator/",
+    "githubSite" : " https://github.com/vincent-nguyen8931/Password-generator"
+  },
+  {
+    "title" : "Day Planner",
+    "img" : "https://github.com/vincent-nguyen8931/Day-planner/blob/main/Day-planner-landing-page.png?raw=true",
+    "description" : "A work day planner that allows events to be input into every hour. Data stored on local storage.",
+    "deployedSite" : " https://vincent-nguyen8931.github.io/Day-planner/",
+    "githubSite" : " https://github.com/vincent-nguyen8931/Day-planner"
+  },
+  {
+    "title" : "Tasty Burger",
+    "img" : "https://github.com/vincent-nguyen8931/Tasty-burger/blob/main/public/assets/img/Tasty-burger-landing-page.png?raw=true",
+    "description" : "Fun website where you can add burgers to be devoured. Includes the ability to order another burger should you want to have another.",
+    "deployedSite" : " https://eat-tasty-burger.herokuapp.com/",
+    "githubSite" : " https://github.com/vincent-nguyen8931/Tasty-burger"
+  },
+  {
+    "title" : "Weather Dashboard",
+    "img" : "https://github.com/vincent-nguyen8931/Weather-dashboard/blob/main/assets/Weather-dashboard-landing-page.png?raw=true",
+    "description" : "Display current weather and 5 day forecast for the city of your choosing.",
+    "deployedSite" : " https://vincent-nguyen8931.github.io/Weather-dashboard/",
+    "githubSite" : " https://github.com/vincent-nguyen8931/Weather-dashboard"
+  },
+  {
+    "title" : "Google Book Search",
+    "img" : "https://github.com/vincent-nguyen8931/Google-book-search/raw/main/Google-book-search.gif",
+    "description" : "Google book search that allows users to save and delete books they desire to a list.",
+    "deployedSite" : " https://google-book-search-vnguyen8931.herokuapp.com/",
+    "githubSite" : " https://github.com/vincent-nguyen8931/Google-book-search"
+  }
+]
