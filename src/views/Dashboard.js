@@ -16,45 +16,25 @@
 
 */
 import React from "react";
-// nodejs library that concatenates classes
-import classNames from "classnames";
-// react plugin used to create charts
-import { Line, Bar } from "react-chartjs-2";
 
 // reactstrap components
 import {
-  Button,
-  ButtonGroup,
   Card,
   CardHeader,
   CardBody,
   CardTitle,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  UncontrolledDropdown,
-  Label,
-  FormGroup,
-  Input,
-  Table,
   Row,
   Col,
-  UncontrolledTooltip,
 } from "reactstrap";
 
 // core components
 import data from "../data.json";
 
-function Dashboard(props) {
-  const [bigChartData, setbigChartData] = React.useState("data1");
-  const setBgChartData = (name) => {
-    setbigChartData(name);
-  };
+function Dashboard() {
   return (
-    <>
-      <div className="content">
-        <Row>
-          {data.map(item => 
+    <div className="content">
+      <Row>
+        {data.map(item =>
           <Col lg="6">
             <Card className="card-chart">
               <CardHeader>
@@ -64,28 +44,26 @@ function Dashboard(props) {
               </CardHeader>
               <CardBody>
                 <figure>
-                  <img src={item.img} style={{ height: "128px" }} />
+                  <img src={item.img} style={{ height: "200px" }} />
                 </figure>
                 <p>{item.description} <br />
                 </p>
-                <div style={{ color: "rgb(37, 120, 246)" }}>
+                <div style={{ color: "white" }}>
                   Deployed site:
-            <a href={item.deployedSite} style={{ color: "white" }}>
+            <a href={item.deployedSite} style={{ color: "rgb(37, 120, 246)" }}>
                     View here</a>
                 </div>
-                <br />
-                <div style={{ color: "rgb(37, 120, 246)" }}>
+                <div style={{ color: "white" }}>
                   GitHub Repo:
-             <a href={item.githubSite} style={{ color: "white" }}>
+             <a href={item.githubSite} style={{ color: "rgb(37, 120, 246)" }}>
                     Link</a>
                 </div>
               </CardBody>
             </Card>
           </Col>
-          )}
-        </Row>
-      </div>
-    </>
+        )}
+      </Row>
+    </div>
   );
 }
 
