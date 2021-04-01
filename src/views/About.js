@@ -44,7 +44,7 @@ function About() {
                   <h3 className="title">Vincent Nguyen</h3>
               </div>
               <div className="card-description">
-              An aspiring full stack developer who completed the full stack coding course from UC Berkeley. My reason is to increase my knowledge of building applications and apply what I have learned from my Computer Science degree. I graduated from CSU Stanislaus in May 2020.
+              An aspiring full stack developer who completed the full stack coding course from UC Berkeley in March 2021. My reason is to increase my knowledge of building applications and apply what I have learned from my Computer Science degree. I graduated from CSU Stanislaus in May 2020.
               </div>
             </CardBody>
             <CardFooter>
