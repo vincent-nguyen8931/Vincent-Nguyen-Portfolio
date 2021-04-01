@@ -15,22 +15,22 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import Dashboard from "views/Dashboard.js";
-import UserProfile from "views/UserProfile.js";
+import Home from "views/Home.js";
+import About from "views/About.js";
 
 var routes = [
   {
-    path: "/dashboard",
+    path: "/home",
     name: "Home",
     icon: "tim-icons icon-world",
-    component: Dashboard,
+    component: Home,
     layout: "/admin",
   },
   {
-    path: "/userProfile",
+    path: "/about",
     name: "About",
     icon: "tim-icons icon-single-02",
-    component: UserProfile,
+    component: About,
     layout: "/admin",
   }
 ];

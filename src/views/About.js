@@ -28,7 +28,7 @@ import {
   Col,
 } from "reactstrap";
 
-function UserProfile() {
+function About() {
   return (
     <div className="content">
       <Row>
@@ -64,4 +64,4 @@ function UserProfile() {
   );
 }
 
-export default UserProfile;
+export default About;

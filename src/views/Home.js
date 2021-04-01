@@ -30,7 +30,7 @@ import {
 // core components
 import data from "../data.json";
 
-function Dashboard() {
+function Home() {
   return (
     <div className="content">
       <Row>
@@ -67,4 +67,4 @@ function Dashboard() {
   );
 }
 
-export default Dashboard;
+export default Home;
