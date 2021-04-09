@@ -26,12 +26,5 @@
     "description" : "Display current weather and 5 day forecast for the city of your choosing. Built using AJAX, Openweather API, Day.js, Javascript, JQuery, HTML, CSS, VSCode, and GitBash.",
     "deployedSite" : " https://vincent-nguyen8931.github.io/Weather-dashboard/",
     "githubSite" : " https://github.com/vincent-nguyen8931/Weather-dashboard"
-  },
-  {
-    "title" : "Google Book Search",
-    "img" : "https://github.com/vincent-nguyen8931/Google-book-search/raw/main/Google-book-search.gif",
-    "description" : "Google book search that allows users to save and delete books they desire to a list. Built using Bootstrap, Express, MongoDB, NodeJS, React, Javascript, HTML, CSS, VSCode, and GitBash.",
-    "deployedSite" : " https://google-book-search-vnguyen8931.herokuapp.com/",
-    "githubSite" : " https://github.com/vincent-nguyen8931/Google-book-search"
   }
 ]
