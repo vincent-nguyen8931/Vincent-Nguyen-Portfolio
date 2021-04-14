@@ -44,11 +44,17 @@ function About() {
                   <h3 className="title">Vincent Nguyen</h3>
               </div>
               <div className="card-description">
-              An aspiring full stack developer who completed the full stack coding course from UC Berkeley in March 2021. My reason is to increase my knowledge of building applications and apply what I have learned from my Computer Science degree. I graduated from CSU Stanislaus in May 2020.
+              Full Stack Developer who will work hard to ensure your solution meets the needs of the client. Always learning to keep up with the ever changing tech field. Completed a contract in prior career field as an Emergency Management Specialist to acquire a 750k mobile communication center reducing field response time from 30 minutes to 5 minutes. Earned a Bachelors degree in Computer Science from CSU Stanislaus on May 2020 and Certificate from UC Berkeley on March 2021 for full stack development. 
               </div>
             </CardBody>
             <CardFooter>
               <div className="button-container">
+              <Button className="btn-icon btn-round" >
+                  <a className="fas fa-file-pdf" href="https://drive.google.com/file/d/1udxjOWt6r9gBuobkJiwcEsh7okbdFwad/view?usp=sharing" style={{color: "white"}}/>
+                </Button>
+              <Button className="btn-icon btn-round" >
+                  <a className="fas fa-envelope" href="mailto: vincent.nguyen8931@gmail.com" style={{color: "white"}}/>
+                </Button>
                 <Button className="btn-icon btn-round" >
                   <a className="fab fa-linkedin" href="https://www.linkedin.com/in/vincent-nguyen8931/" style={{color: "white"}}/>
                 </Button>
